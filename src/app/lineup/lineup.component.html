@@ -1,29 +1,12 @@
-<div class="example-container">
-  <mat-form-field>
-    <input matInput placeholder="First Batter">
-  </mat-form-field>
-  <mat-form-field>
-    <input matInput placeholder="Second Batter">
-  </mat-form-field>
-  <mat-form-field>
-    <input matInput placeholder="Third Batter">
-  </mat-form-field>
-  <mat-form-field>
-    <input matInput placeholder="Forth Batter">
-  </mat-form-field>
-  <mat-form-field>
-    <input matInput placeholder="Fifth Batter">
-  </mat-form-field>
-  <mat-form-field>
-    <input matInput placeholder="Sixth Batter">
-  </mat-form-field>
-  <mat-form-field>
-    <input matInput placeholder="Seventh Batter">
-  </mat-form-field>
-  <mat-form-field>
-    <input matInput placeholder="Eight Batter">
-  </mat-form-field>
-  <mat-form-field>
-    <input matInput placeholder="Ninth Batter">
-  </mat-form-field>
+<div class="lineup-container">
+  <div class="player-input">
+    <mat-form-field *ngFor="let lineupSpot of lineup">
+      <input matInput [(ngModel)]="lineupSpot.player" placeholder="{{lineupSpot.placeholder}}" type="text" name="lineupSpot">
+    </mat-form-field>
+  </div>
+  <div class="position-input">
+    <mat-form-field *ngFor="let lineupSpot of lineup">
+      <input matInput [(ngModel)]="lineupSpot.position" placeholder="" type="text" name="lineupSpot">
+    </mat-form-field>
+  </div>
 </div>

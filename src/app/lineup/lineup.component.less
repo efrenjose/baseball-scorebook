@@ -1,9 +1,24 @@
-.example-container {
+.lineup-container {
     display: flex;
-    flex-direction: column;
-  }
-  
-  .example-container > * {
-    width: 20%;
+    flex-direction: row;
+    width: 10%;
+
+    .player-input, .position-input {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .player-input {
+      width: 80%;
+    }
+
+    .position-input {
+      margin-left: 5px;
+      width: 20%;
+
+      input {
+        text-align: center;
+      }
+    }
   }
   

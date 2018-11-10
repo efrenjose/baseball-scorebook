@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LineupService } from '../shared/lineup.service';
 
 @Component({
   selector: 'app-lineup',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LineupComponent implements OnInit {
 
-  constructor() { }
+  lineup: any;
+
+  constructor(private lineupService: LineupService) { }
 
   ngOnInit() {
+    this.lineupService.get()
+      .subscribe(lineup => this.lineup = lineup);
   }
-
 }

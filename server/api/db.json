@@ -1,0 +1,49 @@
+{
+    "lineup": [
+        {
+            "placeholder": "First Batter",
+            "player": "Aaron Hicks",
+            "position": "CF"
+        },
+        {
+            "placeholder": "Second Batter",
+            "player": "Aaron Judge",
+            "position": "RF"
+        },
+        {
+            "placeholder": "Third Batter",
+            "player": "Giancarlo Stanton",
+            "position": "DH"
+        },
+        {
+            "placeholder": "Forth Batter",
+            "player": "Didi Gregorious",
+            "position": "SS"
+        },
+        {
+            "placeholder": "Fifth Batter",
+            "player": "Gary Sanchez",
+            "position": "C"
+        },
+        {
+            "placeholder": "Sixth Batter",
+            "player": "Miguel Andujar",
+            "position": "3B"
+        },
+        {
+            "placeholder": "Seventh Batter",
+            "player": "Luke Voit",
+            "position": "1B"
+        },
+        {
+            "placeholder": "Eight Batter",
+            "player": "Gleyber Torres",
+            "position": "2B"
+        },
+        {
+            "placeholder": "Ninth Batter",
+            "player": "Brett Gardner",
+            "position": "LF"
+        }
+    ]
+}
