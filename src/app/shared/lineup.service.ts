@@ -3,7 +3,7 @@ import { map } from 'rxjs/operators';
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 
-const BASE_URL = 'http://localhost:3000/lineup/';
+const BASE_URL = 'http://localhost:3000/lineups/';
 
 @Injectable({
   providedIn: 'root'

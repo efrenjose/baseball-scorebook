@@ -1,49 +1,104 @@
 {
-    "lineup": [
+    "lineups": [
         {
-            "placeholder": "First Batter",
-            "player": "Aaron Hicks",
-            "position": "CF"
+            "lineup": [
+                {
+                    "placeholder": "First Batter",
+                    "player": "Aaron Hicks",
+                    "position": "CF"
+                },
+                {
+                    "placeholder": "Second Batter",
+                    "player": "Aaron Judge",
+                    "position": "RF"
+                },
+                {
+                    "placeholder": "Third Batter",
+                    "player": "Giancarlo Stanton",
+                    "position": "DH"
+                },
+                {
+                    "placeholder": "Forth Batter",
+                    "player": "Didi Gregorious",
+                    "position": "SS"
+                },
+                {
+                    "placeholder": "Fifth Batter",
+                    "player": "Gary Sanchez",
+                    "position": "C"
+                },
+                {
+                    "placeholder": "Sixth Batter",
+                    "player": "Miguel Andujar",
+                    "position": "3B"
+                },
+                {
+                    "placeholder": "Seventh Batter",
+                    "player": "Luke Voit",
+                    "position": "1B"
+                },
+                {
+                    "placeholder": "Eight Batter",
+                    "player": "Gleyber Torres",
+                    "position": "2B"
+                },
+                {
+                    "placeholder": "Ninth Batter",
+                    "player": "Brett Gardner",
+                    "position": "LF"
+                }
+            ],
+            "teamName": "Yankees"
         },
         {
-            "placeholder": "Second Batter",
-            "player": "Aaron Judge",
-            "position": "RF"
-        },
-        {
-            "placeholder": "Third Batter",
-            "player": "Giancarlo Stanton",
-            "position": "DH"
-        },
-        {
-            "placeholder": "Forth Batter",
-            "player": "Didi Gregorious",
-            "position": "SS"
-        },
-        {
-            "placeholder": "Fifth Batter",
-            "player": "Gary Sanchez",
-            "position": "C"
-        },
-        {
-            "placeholder": "Sixth Batter",
-            "player": "Miguel Andujar",
-            "position": "3B"
-        },
-        {
-            "placeholder": "Seventh Batter",
-            "player": "Luke Voit",
-            "position": "1B"
-        },
-        {
-            "placeholder": "Eight Batter",
-            "player": "Gleyber Torres",
-            "position": "2B"
-        },
-        {
-            "placeholder": "Ninth Batter",
-            "player": "Brett Gardner",
-            "position": "LF"
+            "lineup": [
+                {
+                    "placeholder": "First Batter",
+                    "player": "Mookie Betts",
+                    "position": "RF"
+                },
+                {
+                    "placeholder": "Second Batter",
+                    "player": "Andrew Benintendi",
+                    "position": "LF"
+                },
+                {
+                    "placeholder": "Third Batter",
+                    "player": "Steve Pearce",
+                    "position": "1B"
+                },
+                {
+                    "placeholder": "Forth Batter",
+                    "player": "J.D. Martinez",
+                    "position": "DH"
+                },
+                {
+                    "placeholder": "Fifth Batter",
+                    "player": "Xander Bogaerts",
+                    "position": "SS"
+                },
+                {
+                    "placeholder": "Sixth Batter",
+                    "player": "Rafael Devers",
+                    "position": "3B"
+                },
+                {
+                    "placeholder": "Seventh Batter",
+                    "player": "Ian Kinsler",
+                    "position": "2B"
+                },
+                {
+                    "placeholder": "Eight Batter",
+                    "player": "Sandy Leon",
+                    "position": "C"
+                },
+                {
+                    "placeholder": "Ninth Batter",
+                    "player": "Jackie Bradley Jr.",
+                    "position": "CF"
+                }
+            ],
+            "teamName": "Red Sox"
         }
     ]
 }
