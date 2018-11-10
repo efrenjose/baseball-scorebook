@@ -1,104 +1,194 @@
 {
-    "lineups": [
-        {
+    "lineups": {
+        "home": {
+            "teamName": "Yankees",
             "lineup": [
                 {
-                    "placeholder": "First Batter",
+                    "spot": {
+                        "name": "First Batter",
+                        "number": 1
+                    },
                     "player": "Aaron Hicks",
-                    "position": "CF"
+                    "position": "CF",
+                    "bat": "S",
+                    "sub": []
                 },
                 {
-                    "placeholder": "Second Batter",
+                    "spot": {
+                        "name": "Second Batter",
+                        "number": 2
+                    },
                     "player": "Aaron Judge",
-                    "position": "RF"
+                    "position": "RF",
+                    "bat": "R",
+                    "sub": []
                 },
                 {
-                    "placeholder": "Third Batter",
+                    "spot": {
+                        "name": "Third Batter",
+                        "number": 3
+                    },
                     "player": "Giancarlo Stanton",
-                    "position": "DH"
+                    "position": "DH",
+                    "bat": "R",
+                    "sub": []
                 },
                 {
-                    "placeholder": "Forth Batter",
+                    "spot": {
+                        "name": "Forth Batter",
+                        "number": 4
+                    },
                     "player": "Didi Gregorious",
-                    "position": "SS"
+                    "position": "SS",
+                    "bat": "L",
+                    "sub": []
                 },
                 {
-                    "placeholder": "Fifth Batter",
+                    "spot": {
+                        "name": "Fifth Batter",
+                        "number": 5
+                    },
                     "player": "Gary Sanchez",
-                    "position": "C"
+                    "position": "C",
+                    "bat": "R",
+                    "sub": []
                 },
                 {
-                    "placeholder": "Sixth Batter",
+                    "spot": {
+                        "name": "Sixth Batter",
+                        "number": 6
+                    },
                     "player": "Miguel Andujar",
-                    "position": "3B"
+                    "position": "3B",
+                    "bat": "R",
+                    "sub": []
                 },
                 {
-                    "placeholder": "Seventh Batter",
+                    "spot": {
+                        "name": "Seventh Batter",
+                        "number": 7
+                    },
                     "player": "Luke Voit",
-                    "position": "1B"
+                    "position": "1B",
+                    "bat": "R",
+                    "sub": []
                 },
                 {
-                    "placeholder": "Eight Batter",
+                    "spot": {
+                        "name": "Eight Batter",
+                        "number": 8
+                    },
                     "player": "Gleyber Torres",
-                    "position": "2B"
+                    "position": "2B",
+                    "bat": "R",
+                    "sub": []
                 },
                 {
-                    "placeholder": "Ninth Batter",
+                    "spot": {
+                        "name": "Ninth Batter",
+                        "number": 9
+                    },
                     "player": "Brett Gardner",
-                    "position": "LF"
+                    "position": "LF",
+                    "bat": "L",
+                    "sub": []
                 }
-            ],
-            "teamName": "Yankees"
+            ]
         },
-        {
+        "away": {
+            "teamName": "Red Sox",
             "lineup": [
                 {
-                    "placeholder": "First Batter",
+                    "spot": {
+                        "name": "First Batter",
+                        "number": 1
+                    },
                     "player": "Mookie Betts",
-                    "position": "RF"
+                    "position": "RF",
+                    "bat": "R",
+                    "sub": []
                 },
                 {
-                    "placeholder": "Second Batter",
+                    "spot": {
+                        "name": "Second Batter",
+                        "number": 2
+                    },
                     "player": "Andrew Benintendi",
-                    "position": "LF"
+                    "position": "LF",
+                    "bat": "L",
+                    "sub": []
                 },
                 {
-                    "placeholder": "Third Batter",
+                    "spot": {
+                        "name": "Third Batter",
+                        "number": 3
+                    },
                     "player": "Steve Pearce",
-                    "position": "1B"
+                    "position": "1B",
+                    "bat": "R",
+                    "sub": []
                 },
                 {
-                    "placeholder": "Forth Batter",
+                    "spot": {
+                        "name": "Forth Batter",
+                        "number": 4
+                    },
                     "player": "J.D. Martinez",
-                    "position": "DH"
+                    "position": "DH",
+                    "bat": "R",
+                    "sub": []
                 },
                 {
-                    "placeholder": "Fifth Batter",
+                    "spot": {
+                        "name": "Fifth Batter",
+                        "number": 5
+                    },
                     "player": "Xander Bogaerts",
-                    "position": "SS"
+                    "position": "SS",
+                    "bat": "R",
+                    "sub": []
                 },
                 {
-                    "placeholder": "Sixth Batter",
+                    "spot": {
+                        "name": "Sixth Batter",
+                        "number": 6
+                    },
                     "player": "Rafael Devers",
-                    "position": "3B"
+                    "position": "3B",
+                    "bat": "L",
+                    "sub": []
                 },
                 {
-                    "placeholder": "Seventh Batter",
+                    "spot": {
+                        "name": "Seventh Batter",
+                        "number": 7
+                    },
                     "player": "Ian Kinsler",
-                    "position": "2B"
+                    "position": "2B",
+                    "bat": "R",
+                    "sub": []
                 },
                 {
-                    "placeholder": "Eight Batter",
+                    "spot": {
+                        "name": "Eight Batter",
+                        "number": 8
+                    },
                     "player": "Sandy Leon",
-                    "position": "C"
+                    "position": "C",
+                    "bat": "L",
+                    "sub": []
                 },
                 {
-                    "placeholder": "Ninth Batter",
+                    "spot": {
+                        "name": "Ninth Batter",
+                        "number": 9
+                    },
                     "player": "Jackie Bradley Jr.",
-                    "position": "CF"
+                    "position": "CF",
+                    "bat": "S",
+                    "sub": []
                 }
-            ],
-            "teamName": "Red Sox"
+            ]
         }
-    ]
+     }
 }

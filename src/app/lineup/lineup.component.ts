@@ -21,11 +21,11 @@ export class LineupComponent implements OnInit {
       .subscribe(lineups => {
         this.lineups = lineups;
 
-        this.homeLineup = lineups[0].lineup;
-        this.homeTeam = lineups[0].teamName;
+        this.homeLineup = lineups.home.lineup;
+        this.homeTeam = lineups.home.teamName;
 
-        this.awayLineup = lineups[1].lineup;
-        this.awayTeam = lineups[1].teamName;
+        this.awayLineup = lineups.away.lineup;
+        this.awayTeam = lineups.away.teamName;
       });
   }
 }

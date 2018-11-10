@@ -3,7 +3,7 @@
       <div class="lineup-container">
           <div class="player-input">
             <mat-form-field *ngFor="let lineupSpot of homeLineup">
-              <input matInput [(ngModel)]="lineupSpot.player" placeholder="{{lineupSpot.placeholder}}" type="text" name="lineupSpot">
+              <input matInput [(ngModel)]="lineupSpot.player" placeholder="{{lineupSpot.spot.name}} ({{lineupSpot.bat}})" type="text" name="lineupSpot">
             </mat-form-field>
           </div>
           <div class="position-input">
@@ -17,7 +17,7 @@
       <div class="lineup-container">
           <div class="player-input">
             <mat-form-field *ngFor="let lineupSpot of awayLineup">
-              <input matInput [(ngModel)]="lineupSpot.player" placeholder="{{lineupSpot.placeholder}}" type="text" name="lineupSpot">
+              <input matInput [(ngModel)]="lineupSpot.player" placeholder="{{lineupSpot.spot.name}} ({{lineupSpot.bat}})" type="text" name="lineupSpot">
             </mat-form-field>
           </div>
           <div class="position-input">
