@@ -8,10 +8,12 @@
                         "name": "First Batter",
                         "number": 1
                     },
-                    "player": "Aaron Hicks",
+                    "player": {
+                        "name": "Aaron Hicks",
+                        "bat": "S"
+                    },
                     "position": "CF",
-                    "bat": "S",
-                    "sub": []
+                    "subs": []
                 },
                 {
                     "spot": {
